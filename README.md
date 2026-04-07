@@ -145,27 +145,7 @@ The design was synthesized through an open-source ASIC flow using Qflow:
 * Post-layout: ~312 MHz
 * Minimal degradation (~0.85%), indicating robust physical design
 
----
-
-## How to Run
-
-### Simulation
-
-1. Compile all Verilog source files
-2. Run the testbench:
-
-   ```
-   matrix_scanner_tb.v
-   ```
-
-### FPGA Deployment
-
-1. Open the project in Intel Quartus Prime
-2. Compile the design
-3. Program the DE1-SoC board
-4. Connect a 4×4 keypad module
-
----
+--
 
 ## Technologies
 
